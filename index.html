@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#163b35">
+  <title>For Sir Randy | Teacher's Day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <div class="top-note"><span class="tiny-star">✦</span> A little appreciation, just for you <span class="tiny-star">✦</span></div>
+
+    <section class="scene" aria-label="Teacher's Day greeting card">
+      <div class="folder" id="folder">
+        <div class="folder-back"></div>
+        <div class="paper">
+          <div class="paper-inner">
+            <div class="paper-topline"><span>WORLD TEACHER'S DAY</span><span>✦ 2026</span></div>
+            <div class="inside-layout">
+              <div class="portrait-frame">
+                <img src="assets/teacher-photo.jpg" alt="Teacher's portrait">
+                <span class="portrait-caption">A teacher who makes a difference</span>
+              </div>
+              <div class="message">
+                <div class="eyebrow">WITH GRATITUDE</div>
+                <h1>Happy<br><em>Teacher's Day!</em></h1>
+                <p class="dear">Dear Sir Randy,</p>
+                <p>Thank you for sharing your knowledge, patience, and time with us. Your guidance helps us learn, grow, and believe that we can do more than we think.</p>
+                <p>May you always find joy in teaching and know that your efforts are truly appreciated. The lessons you share reach far beyond the classroom.</p>
+                <p class="closing">With respect and gratitude,</p>
+                <p class="signature">Jimuel Porcare</p>
+              </div>
+            </div>
+            <div class="paper-footer"><span>THANK YOU FOR ALL THAT YOU DO</span><span>❧</span></div>
+          </div>
+        </div>
+        <button class="folder-cover" id="openButton" type="button" aria-expanded="false" aria-controls="folder">
+          <span class="cover-tab"></span>
+          <span class="cover-decoration deco-one">✦</span>
+          <span class="cover-decoration deco-two">✧</span>
+          <span class="cover-label">A NOTE OF<br><strong>APPRECIATION</strong></span>
+          <span class="cover-rule"></span>
+          <span class="cover-title">For Sir Randy</span>
+          <span class="cover-subtitle">A message from Jimuel</span>
+          <span class="open-hint"><span class="open-icon">↗</span> CLICK TO OPEN</span>
+        </button>
+      </div>
+    </section>
+
+    <p class="instruction" id="instruction">Tap or click the folder to open your greeting.</p>
+    <button class="replay" id="replayButton" type="button" hidden>↺ Close the card</button>
+    <div class="bottom-note">MADE WITH APPRECIATION <span>♥</span></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
